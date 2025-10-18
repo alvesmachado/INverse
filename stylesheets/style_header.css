@@ -1,0 +1,100 @@
+header {
+    background-color: var(--color5);
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 8px var(--sbox_color);
+    z-index: 2;
+}
+
+.header-box {
+    display: flex;
+    gap: 72px;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.header-box > a {
+    font-size: 0;
+    background: url('../imagens/favicon_edit.png') 50% 50% no-repeat;;
+    background-size: 100% 100%;
+    min-width: 40px;
+    min-height: 40px;
+    text-align: center;
+}
+
+.header-box > a:active {
+    transition: 0.01s;
+    background-size: 38px 38px;
+}
+
+
+.nav-box {
+    max-width: 320px;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.fl {
+    float: left;
+    margin: 0px;
+    height: 40px;
+}
+
+.nav-selector > a {
+    line-height: 40px;
+    font-size: 100%;
+    font-weight: 700;
+    color: var(--color6);
+}
+
+.nav-selector > a:hover {
+    transition: 0.2s;
+    color: var(--color1);
+}
+
+.nav-selector > a:active {
+    transition: 0.2s;
+    color: var(--color4);
+}
+
+@media (max-width: 900px) {
+    header {
+        position: relative;
+    }
+    .header-box {
+        gap: 20px;
+        padding: 0px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fl {
+        background-image: linear-gradient(to right, var(--color1), var(--color2), var(--color3), var(--color4));
+        width: 100%;
+        box-shadow: 0px 3px 7px var(--sbox_color);
+    }
+    .nav-box {
+        max-width: 100%;
+        min-width: 320px;
+        list-style: none;
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+    }
+    .nav-selector > a {
+    color: var(--color5);
+    }
+    .nav-selector > a:hover {
+        transition: 0.2s;
+    color: var(--color6);
+    }
+    .nav-selector > a:active {
+        transition: 0.1s;
+    color: var(--color4);
+    }
+}

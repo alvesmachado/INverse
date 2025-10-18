@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap'); /* Importando fontes 'Archivo'(san-serif) e 'Unna'(serif)*/
+
+:root {
+    --color1: #88099D;
+    --color2: #A60E80;
+    --color3: #BC126D;
+    --color4: #EE173F;
+    --color5: #ffffff;
+    --color6: #83848F;
+    --color7: #140018;
+    --color8: #83848F;
+
+
+    --sbox_color: rgba(0, 0, 0, 0.388);
+    --font-pri: 'Archivo', 'Trebuchet MS', sans-serif;
+    --font-sec: 'Unna', 'Times', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--color5);
+    font-family: var(--font-pri);
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 80px 0px 40px 0px;
+    margin: 0px;
+}
+
+main h1 {
+    color: var(--color3);
+}
+
+main hr {
+    margin: 0px 10px;
+    border: 1px solid var(--sbox_color);
+    border-radius: 2px;
+
+}
+
+/* Caminho do site */
+
+.caminho-box {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(to left, var(--color1), var(--color3));
+}
+
+.caminho-box p {
+    margin-left: 10px;
+    color: var(--color5);
+    font-weight: bold;
+}
+
+.caminho-box a {
+    color: var(--color5);
+}
+
+.caminho-box a:hover {
+    color: var(--color6);
+}
+
+.caminho-box a:active {
+    color: var(--color4);
+}
+
+.caminho {
+    text-decoration: underline;
+}

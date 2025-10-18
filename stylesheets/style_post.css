@@ -1,0 +1,109 @@
+@media (max-width: 900px) {
+    main {
+        padding:40px 0px 80px 0px;
+        
+    }
+    
+}
+
+/* Caminho do site (LEMBRAR DE MUDAR NO HTML PARA O CAMINHO-BOX NORMAL, E APAGAR O DE BAIXO */
+
+.post-caminho-box {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(to left, var(--color1), var(--color3));
+}
+
+.post-caminho-box p {
+    margin-left: 10px;
+    color: var(--color5);
+    font-weight: bold;
+}
+
+.post-caminho-box a {
+    color: var(--color5);
+}
+
+.post-caminho-box a:hover {
+    color: var(--color6);
+}
+
+.post-caminho-box a:active {
+    color: var(--color4);
+}
+
+.post-caminho {
+    text-decoration: underline;
+}
+
+/* Post */
+
+.post-box {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    background: var(--color5);
+}
+
+.post-title {
+    color: var(--color3);
+    margin: 10px 10px;
+}
+
+.post-subtitle {
+    color: var(--color6);
+    margin: 10px 10px;
+}
+
+.separador-inicial {
+    margin-bottom: 64px;
+}
+
+.post-trailer-youtube {
+    width: calc(100%-20px);
+    box-shadow: 0px 0px 6px var(--sbox_color);
+    margin: 10px 0px;
+}
+
+.post a {
+    color: var(--color1);
+    text-decoration: underline;
+}
+
+.post a:hover {
+    color: var(--color4);
+}
+
+.post a:active {
+    color: var(--color6);
+}
+
+.post hr {
+    margin: 16px 10px;
+}
+
+.post p {
+    text-indent: 5%;
+    margin: 10px;
+    color: var(--color7);
+    font-family: 'Unna', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.post h3 {
+    margin: 40px 10px 20px 10px;
+}
+
+.post img {          
+    text-align: center;
+    max-width: calc(100% - 20px);
+    margin: 10px 10px;           
+    box-shadow: 0px 0px 6px var(--sbox_color);     
+}
