@@ -54,9 +54,6 @@ main hr {
     max-width: 1000px;
     min-width: 320px;
     margin: auto;
-    max-width: 1000px;
-    min-width: 320px;
-    margin: auto;
     padding: 10px 0px 10px 0px;
     background-image: linear-gradient(to left, var(--color1), var(--color3));
 }
