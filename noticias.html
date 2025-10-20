@@ -8,82 +8,11 @@
     <link rel="stylesheet" href="stylesheets/style_pag-list.css">
     <link rel="stylesheet" href="stylesheets/style_geral.css">
     <link rel="stylesheet" href="stylesheets/style_header.css">
+    <link rel="stylesheet" href="stylesheets/style_noticias.css">
     <link rel="stylesheet" href="stylesheets/style_footer.css">
     <style>
-        .pesquisar {
-            max-width: 1000px;
-            min-width: 320px;
-            margin: auto;
-            padding: 10px 0px 10px 0px;
-            background-image: linear-gradient(to left, var(--color5), var(--color6));
-        }
-        .pesquisar-box {
-            background: var(--color5);
-            margin-left: 10px;
-            padding: 4px;
-            border-radius: 8px;
-        }
-        .noticias {
-            max-width: 1000px;
-            min-width: 320px;
-            margin: auto;
-            padding: 10px 0px 10px 0px;
-            background: var(--color5);
-        }
-        .noticias > h1 {
-            margin: 0px 10px 10px 10px;
-            padding-top: 32px;
-        }
-        .noticias-box {
-            margin-top: 24px;
-        }
-        .title-noticias {
-            color: var(--color6);
-            margin: 0px 10px;
-            margin-top: 24px;
-        }
-        .noticias-content p {
-            color: var(--color7);
-            margin-top: 10px;
-            margin-left: 10px;
-        }
-
-        .noticias-content hr {
-            margin: 10px 10px 0px 10px;
-            border: 1px solid rgba(0, 0, 0, 0.116);
-            border-radius: 2px;
-        }
-
-        .noticias-content:hover .title-noticias {
-            color: var(--color4);
-        }
-
-        .noticias-content:hover p {
-            color: var(--color6);
-        }
-
-        .noticias-content:hover hr {
-            border: 1px solid var(--color4);
-        }
-
-        .fade-text {
-            max-width: 1000px;
-            line-height: 1.3em;
-            height: 3.9em; 
-            overflow: hidden;
-            position: relative;
-        }
-
-        .fade-text::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 8em;
-            background: linear-gradient(to bottom, transparent, var(--color5));
-           
-        }
+        
+        
         
     </style>
 </head>
@@ -110,20 +39,23 @@
         <section class="noticias">
             <h1>Notícias</h1>
             <hr>
-            <article class="noticias-box">
-                <a href="posts/post_01/post_1.html" class="noticias-content">
-                    <h2 class="title-noticias">Filme de ‘Demon Slayer’ segue batendo recordes e se torna a quinta maior bilheteria global de 2025</h2>
-                    <p class="fade-text">Há pouco mais de um mês em cartaz nos cinemas do Brasil e dos Estados Unidos, “Demon Slayer: Kimetsu no Yaiba - Castelo Infinito” não para de surpreender nas telonas. Depois de se tornar o filme japonês mais lucrativo da história e o anime de maior arrecadação nos cinemas do mundo, “Demon Slayer” acaba de realizar outro feito impressionante: o filme agora ocupa o top 5 das maiores bilheterias globais de 2025. Com um total de US$648 milhões arrecadados, “Castelo Infinito” fica atrás apenas de “Jurassic World: Recomeço” (US$867 milhões); “Um Filme Minecraft” (US$957 milhões); “Lilo & Stitch” (US$1,03 bilhão) e “Ne Zha 2: O Renascer da Alma” (US$1,9 bilhão) no ranking dos mais vendidos do ano. Os dados são do Box Office Mojo.
-                    </p>
-                    <hr>
-                </a>
-                <a href="posts/post_02/post_2.html" class="noticias-content">
-                    <h2 class="title-noticias">Conheça ‘The Fragrant Flower Blooms With Dignity‘’, o anime que superou ‘Solo Leveling’</h2>
-                    <p class="fade-text">Lançada em 07 de setembro deste ano, ‘The Fragrant Flower Blooms With Dignity’ surpreendeu os fãs de anime ao tomar a coroa de ‘Solo Leveling’, se tornando a produção animada mais bem avaliada da MyAnimeList. Com os treze episódios já disponíveis no catálogo da Netflix, a série foi dirigida por Miyuki Kuroki, enquanto Rino Yamazaki assumiu o roteiro, sendo uma adaptação do mangá escrito por Saka Mikami. Recém-concluída, sua nota média de aprovação no site que registra a opinião do público foi de 8,74.   </p>
-                    <hr>
-                </a>
-                
-            </article>
+            <ol class="noticias-box">
+                <li>
+                    <a href="posts/post_01/post_1.html" class="noticias-content">
+                        <h2 class="title-noticias">Filme de ‘Demon Slayer’ segue batendo recordes e se torna a quinta maior bilheteria global de 2025</h2>
+                        <p class="fade-text">Há pouco mais de um mês em cartaz nos cinemas do Brasil e dos Estados Unidos, “Demon Slayer: Kimetsu no Yaiba - Castelo Infinito” não para de surpreender nas telonas. Depois de se tornar o filme japonês mais lucrativo da história e o anime de maior arrecadação nos cinemas do mundo, “Demon Slayer” acaba de realizar outro feito impressionante: o filme agora ocupa o top 5 das maiores bilheterias globais de 2025. Com um total de US$648 milhões arrecadados, “Castelo Infinito” fica atrás apenas de “Jurassic World: Recomeço” (US$867 milhões); “Um Filme Minecraft” (US$957 milhões); “Lilo & Stitch” (US$1,03 bilhão) e “Ne Zha 2: O Renascer da Alma” (US$1,9 bilhão) no ranking dos mais vendidos do ano. Os dados são do Box Office Mojo.
+                        </p>
+                        <hr>
+                    </a>
+                </li>
+                <li>
+                    <a href="posts/post_02/post_2.html" class="noticias-content">
+                        <h2 class="title-noticias">Conheça ‘The Fragrant Flower Blooms With Dignity‘’, o anime que superou ‘Solo Leveling’</h2>
+                        <p class="fade-text">Lançada em 07 de setembro deste ano, ‘The Fragrant Flower Blooms With Dignity’ surpreendeu os fãs de anime ao tomar a coroa de ‘Solo Leveling’, se tornando a produção animada mais bem avaliada da MyAnimeList. Com os treze episódios já disponíveis no catálogo da Netflix, a série foi dirigida por Miyuki Kuroki, enquanto Rino Yamazaki assumiu o roteiro, sendo uma adaptação do mangá escrito por Saka Mikami. Recém-concluída, sua nota média de aprovação no site que registra a opinião do público foi de 8,74.   </p>
+                        <hr>
+                    </a>
+                </li>       
+            </ol>
         </section>
     </main>
     <footer>
@@ -140,15 +72,15 @@
             <article class="social-footer-box">
                 <ul class="list-footer-box">
                     <h2>Instagram</h2>
-                    <li><a href="">@BAjovemmestre</a></li>
-                </ul>
-                <ul class="list-footer-box">
-                    <h2>Twitter</h2>
-                    <li><a href="">@BAjovemmestre</a></li>
+                    <li><a href="" target="_blank">@BAjovemmestre</a></li>
                 </ul>
                 <ul class="list-footer-box">
                     <h2>Facebook</h2>
-                    <li><a href="">@BAjovemmestre</a></li>
+                    <li><a href="https://www.facebook.com/MichaelDouglaaaaas" target="_blank">@MichaelDouglaaaaas</a></li>
+                </ul>
+                <ul class="list-footer-box">
+                    <h2>GitHub</h2>
+                    <li><a href="https://github.com/alvesmachado" target="_blank">@alvesmachado</a></li>
                 </ul>
             </article>
         </section>

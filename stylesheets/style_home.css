@@ -323,9 +323,6 @@
 
 @media (max-width: 900px){
     /* Destaque da Semana */
-    main {
-        padding:0px 0px 80px 0px;
-    }
     #card-box {
         flex-wrap: wrap;
         justify-content: center;

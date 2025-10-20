@@ -79,3 +79,25 @@ main hr {
 .caminho {
     text-decoration: underline;
 }
+
+/* Barra de pesquisar (INCOMPLETA) */
+
+.pesquisar {
+            max-width: 1000px;
+            min-width: 320px;
+            margin: auto;
+            padding: 10px 0px 10px 0px;
+            background-image: linear-gradient(to left, var(--color5), var(--color6));
+        }
+        .pesquisar-box {
+            background: var(--color5);
+            margin-left: 10px;
+            padding: 4px;
+            border-radius: 8px;
+        }
+
+@media (max-width: 900px){
+    main {
+        padding:0px 0px 80px 0px;
+    }
+}
