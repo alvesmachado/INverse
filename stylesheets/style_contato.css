@@ -5,8 +5,8 @@ main {
 #contato {
     max-width: 100%;
     min-width: 320px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.966)), url(imagens/59948825da49186d884ff496.2019-10-07-15_25_01.gif) no-repeat center center;
-    background-size: 100% 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.863)), url(../imagens/59948825da49186d884ff496.2019-10-07-15_25_01.gif) no-repeat center center;
+    background-size: cover;
 }
 
 #contato-content{
